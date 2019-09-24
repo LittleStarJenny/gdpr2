@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "79539a34fba4cca92799852f19fac712",
+    "content-hash": "c9357e295d1dc2259b55566e6b61b117",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -10168,11 +10168,11 @@
         },
         {
             "name": "mageplaza/module-gdpr",
-            "version": "1.2.2",
-            "dist": {
-                "type": "zip",
-                "url": "https://repo.magento.com/archives/mageplaza/module-gdpr/mageplaza-module-gdpr-1.2.2.0.zip",
-                "shasum": "59876cb66885eb035e9252a3218bb913c07f7789"
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:LittleStarJenny/gdpr-module.git",
+                "reference": "3ee753033909fb74f88d890fb56c4b45f6f36b69"
             },
             "require": {
                 "mageplaza/module-core": "^1.4.4"
@@ -10197,7 +10197,8 @@
                     "role": "Technical Support"
                 }
             ],
-            "description": "Magento 2 GDPR Extensions"
+            "description": "Magento 2 GDPR Extensions",
+            "time": "2019-09-24T11:52:07+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -19475,6 +19476,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "mageplaza/module-gdpr": 20,
         "phpmd/phpmd": 0
     },
     "prefer-stable": false,
