@@ -12,7 +12,7 @@
     },
     "require": {
         "magento/product-community-edition": "2.3.2",
-        "mageplaza/module-gdpr": "dev-master"
+        "mageplaza/module-gdpr": "1.2.2.2"
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "~1.2.0",
